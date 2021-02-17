@@ -179,7 +179,9 @@ li a {
   #row {
     flex-direction: row;
   }
-  
+.row {
+    padding: 10px
+}
   .flexItem1 {
     margin: 10px;
     padding: 10px;
@@ -289,6 +291,7 @@ li a {
 }
 .jumbotron {
     background-color: #800F37;
+    background-image: url(Images/Screen Shot 2021-01-18 at 8.40.22 PM.png);
 }
 
 .navbar {
@@ -297,6 +300,18 @@ li a {
 
 .cardContainer {
     background-color: black;
+}
+
+.card-text {
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+}
+
+.card-body {
+    color: black;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
 }
   @media only screen and (max-width: 600px) {
     .flex_item {
